@@ -5,7 +5,7 @@ address-matching-api
 /?search="123 Main St"
 
 ### JSON Response
-```json
+```javascript
 "results" : [
       {
          "address_components" : [ # the components of the matched address not the query address
