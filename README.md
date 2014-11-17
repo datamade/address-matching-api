@@ -10,14 +10,13 @@ address-matching-api
       {
          "address_components" : [ # the components of the matched address not the query address
             {
-               
                "name" : "123",
                "types" : "address_number"
             },
             {
                "name" : "South Main St",
                "types" : [ "street_name" ]
-            },
+            }]
          "formatted_address" : "123 South Main St", 
          "geometry" : {
             "location" : {
